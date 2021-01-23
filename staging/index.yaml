@@ -1,0 +1,71 @@
+apiVersion: v1
+entries:
+  awesome-guestbook:
+  - apiVersion: v2
+    appVersion: v4
+    created: "2021-01-23T07:09:26.177352Z"
+    dependencies:
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.1.x
+    description: This is a Helm chart for a guestbook application that runs on Redis
+      !
+    digest: 4038eb4c1a3def17179b934414b70358a4c4c6f94bae823726ca2afc5953f72d
+    maintainers:
+    - email: atechgirl2014@gmail.com
+      name: atechgirl
+    name: awesome-guestbook
+    type: application
+    urls:
+    - awesome-guestbook-1.0.1.tgz
+    version: 1.0.1
+  nginx:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-01-23T07:09:26.17817Z"
+    description: A Helm chart that deploys nginx for demo purposes.
+    digest: 0af79f476050d9a39b2b95fbb73bc4b6bc9fa60bad4e0fc9e1762fe3aa701df3
+    maintainers:
+    - email: atechgirl2014@gmail.com
+      name: atechgirl
+    name: nginx
+    type: application
+    urls:
+    - nginx-0.1.2.tgz
+    version: 0.1.2
+  wordpress:
+  - annotations:
+      category: CMS
+    apiVersion: v1
+    appVersion: 5.5.1
+    created: "2021-01-23T07:09:26.1858786Z"
+    dependencies:
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - wordpress-database
+      version: 7.x.x
+    description: Web publishing platform for building blogs and websites.
+    digest: d45c3e90fdd1cdb790edd6c968e1ea3c4a55f75dfcf4343ba973b57c6af88906
+    home: https://github.com/bitnami/charts/tree/master/bitnami/wordpress
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - wordpress
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: wordpress
+    sources:
+    - https://github.com/bitnami/bitnami-docker-wordpress
+    - http://www.wordpress.com/
+    urls:
+    - wordpress-9.6.2.tgz
+    version: 9.6.2
+generated: "2021-01-23T07:09:26.0857081Z"

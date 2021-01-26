@@ -3,14 +3,14 @@ entries:
   awesome-guestbook:
   - apiVersion: v2
     appVersion: v4
-    created: "2021-01-23T07:09:26.177352Z"
+    created: "2021-01-26T09:44:44.897105Z"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
       version: 12.1.x
     description: This is a Helm chart for a guestbook application that runs on Redis
       !
-    digest: 4038eb4c1a3def17179b934414b70358a4c4c6f94bae823726ca2afc5953f72d
+    digest: 9a2309bddd2185b1b48a9d8ca40da7182bf844f4f4835d2280a82180b7d844dd
     maintainers:
     - email: atechgirl2014@gmail.com
       name: atechgirl
@@ -22,9 +22,9 @@ entries:
   nginx:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-01-23T07:09:26.17817Z"
+    created: "2021-01-26T09:44:44.8975729Z"
     description: A Helm chart that deploys nginx for demo purposes.
-    digest: 0af79f476050d9a39b2b95fbb73bc4b6bc9fa60bad4e0fc9e1762fe3aa701df3
+    digest: 41fc01e0f43eda87e95637774a8a49ce89290f647cda9b3ba9f4b971975bdf7e
     maintainers:
     - email: atechgirl2014@gmail.com
       name: atechgirl
@@ -38,7 +38,7 @@ entries:
       category: CMS
     apiVersion: v1
     appVersion: 5.5.1
-    created: "2021-01-23T07:09:26.1858786Z"
+    created: "2021-01-26T09:44:44.9049328Z"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -47,7 +47,7 @@ entries:
       - wordpress-database
       version: 7.x.x
     description: Web publishing platform for building blogs and websites.
-    digest: d45c3e90fdd1cdb790edd6c968e1ea3c4a55f75dfcf4343ba973b57c6af88906
+    digest: 415b9094298286b0c86e3d7b60ac4b310dacc51f1b46d7f1e09523838d22aad0
     home: https://github.com/bitnami/charts/tree/master/bitnami/wordpress
     icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
     keywords:
@@ -68,4 +68,4 @@ entries:
     urls:
     - wordpress-9.6.2.tgz
     version: 9.6.2
-generated: "2021-01-23T07:09:26.0857081Z"
+generated: "2021-01-26T09:44:44.8116244Z"
